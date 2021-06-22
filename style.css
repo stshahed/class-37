@@ -1,0 +1,134 @@
+.latest-news{}
+.latest-news span{
+    color: #2d8cff;
+}
+.latest-news h2 {
+    font-size: 37px;
+    padding-top: 10px;
+    position: relative;
+    font-weight: bold;
+}
+.latest-news h2::after {
+    content: "";
+    position: absolute;
+    bottom: -22px;
+    left: 524px;
+    right: 0;
+    width: 67px;
+    height: 2px;
+    background: #2d8cff;
+}
+.latest-news p {
+    color: rgb(117, 112, 112);
+    padding-top: 35px;
+}
+
+/* blog item */
+.blog-item{
+    padding-bottom: 50px;
+}
+.blog-img{
+    position: relative;
+}
+.blog-img img{
+    max-width: 100%;
+
+}
+.blog-img h2{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.blog-img p {
+    color: rgb(110, 107, 107);
+    font-size: 14px;
+    padding-top: 15px;
+}
+.blog-inner-content {
+    background: #267ce6;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 50px;
+    position: absolute;
+    top: 174px;
+    right: 22px;
+}
+.blog-inner-content img {
+    display: inline-block;
+    border-radius: 50%;
+    height: 35px;
+    width: auto;
+}
+.blog-inner-content span {
+    color: #fff;
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+/* footer */
+.footer{
+    background: #111;
+}
+.footer-up{
+    padding: 100px 0 80px 0;
+    border-bottom: 1px solid gray;
+}
+.footer-first{}
+.footer-first img {
+    /* max-width: 100%; */
+    width: 200px;
+    height: auto;
+    margin-bottom: 26px;
+}
+.footer-first p {
+    color: #fff;
+    font-size: 18px;
+}
+.footer-first ul{
+    padding-left: 0;
+}
+.footer-first ul li{
+    display: inline-block;
+}
+.footer-first ul li a i {
+    display: inline-block;
+    color: #fff;
+    padding-right: 35px;
+    font-size: 23px;
+    padding-top: 20px;
+}
+.footer-same {
+    padding: 0 50px;
+}
+.footer-same h3 {
+    color: #ffff;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.footer-same h3::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 2px;
+    height: 27px;
+    background: #267ce6;
+}
+.footer-same ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-same ul li {
+    color: gray;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.footer-down p {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
